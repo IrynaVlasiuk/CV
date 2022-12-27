@@ -30,7 +30,7 @@ h3 {
 
 h4 {
     font-size: 18px;
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 
 .left-side {
@@ -82,9 +82,13 @@ a:hover::before{
     width: 100%;
 }
 
+ul li {
+    margin: 5px 0px;
+}
+
 .left-side .candidate-name {
     font-size: 50px;
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -108,12 +112,12 @@ a:hover::before{
 }
 
 .left-side .contact-info .contact-block span {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .left-side .experience-block .experience-info {
     border-bottom: 1px dotted;
-    margin-bottom: 20px;
+    margin: 50px 0px;
 }
 
 .left-side .terms {
@@ -150,6 +154,10 @@ a:hover::before{
     margin-left: 10px;
 }
 
+.right-side .skills-block .skills-info {
+    margin: 50px 0px;
+}
+
 .right-side .skills-block .skills-info ul {
     list-style: none;
     padding-left: 0px;
@@ -163,6 +171,10 @@ a:hover::before{
     border-bottom: 1px solid black;
     margin: 10px;
     font-size: 20px;
+}
+
+.right-side .passions-block .passions-info {
+    margin: 50px 0px;
 }
 
 .right-side .passions-block .passions-info .passion {
@@ -184,13 +196,17 @@ a:hover::before{
 .right-side .languages-block .languages-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin: 50px 0px;
 }
 
 .right-side .languages-block .languages-info .language-range {
     display: flex;
     width: 60%;
     height: 14px;
+}
+
+.right-side h2 {
+    margin-top: 50px;
 }
 
 .one-hundred-percentages {
@@ -212,5 +228,4 @@ a:hover::before{
 .black-block {
     background-color: #231f20;
 }
-
 
