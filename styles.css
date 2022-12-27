@@ -1,0 +1,216 @@
+.blue {
+    color: #006666;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 20px 0px 10px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0px;
+    color: #006666;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.left-side {
+    width: 55%;
+}
+
+hr {
+    border-width: 2px;
+    border-color: black;
+    background-color: black;
+    border-style: double;
+    margin-bottom: 15px;
+}
+
+a {
+    background-image: linear-gradient(
+            to right,
+            #54b3d6,
+            #54b3d6 50%,
+            #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-position: 0;
+}
+
+a:hover::before{
+    width: 100%;
+}
+
+.left-side .candidate-name {
+    font-size: 50px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left-side .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 30px 0px;
+}
+
+.left-side .contact-info .contact-block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.left-side .contact-info .contact-block .icon-img {
+   width: 30px;
+}
+
+.left-side .contact-info .contact-block span {
+    margin-left: 10px;
+}
+
+.left-side .experience-block .experience-info {
+    border-bottom: 1px dotted;
+    margin-bottom: 20px;
+}
+
+.left-side .terms {
+    display: flex;
+    align-items: center;
+}
+
+.left-side .terms span {
+    margin-left: 10px;
+}
+
+.left-side .terms .icon {
+   width: 20px;
+}
+
+.right-side {
+    width: 35%;
+}
+
+.right-side .avatar-block img {
+    border-radius: 50%;
+}
+
+.right-side .social-network-info {
+    display: flex;
+    align-items: center;
+}
+
+.right-side .social-network-info .icon {
+    width: 35px;
+}
+
+.right-side .social-network-info span {
+    margin-left: 10px;
+}
+
+.right-side .skills-block .skills-info ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.right-side .skills-block .skills-info ul li {
+    margin-bottom: 10px;
+}
+
+.right-side .skills-block .skills-info ul span {
+    border-bottom: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.right-side .passions-block .passions-info .passion {
+    border-bottom: 1px dotted;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.right-side .passions-block .passions-info .passion img {
+    width: 35px;
+}
+
+.right-side .passions-block .passions-info .passion span {
+    margin-left: 10px;
+}
+
+.right-side .languages-block .languages-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.right-side .languages-block .languages-info .language-range {
+    display: flex;
+    width: 60%;
+    height: 14px;
+}
+
+.one-hundred-percentages {
+    width: 100%;
+}
+
+.sixty-percentages {
+    width: 60%;
+}
+
+.forty-percentages {
+    width: 40%;
+}
+
+.blue-block {
+    background-color: #69bfbf;
+}
+
+.black-block {
+    background-color: #231f20;
+}
+
+
