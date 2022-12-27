@@ -93,6 +93,10 @@ ul li {
     font-weight: bold;
 }
 
+.left-side .candidate-position {
+    font-size: 32px;
+}
+
 .left-side .contact-info {
     display: flex;
     flex-wrap: wrap;
